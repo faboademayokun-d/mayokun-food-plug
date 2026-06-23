@@ -53,7 +53,7 @@ header{
     top: 0;
     left: 0;
     z-index: 20;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: none;
     justify-content: space-between;
     padding: 10px 30px;
@@ -115,7 +115,7 @@ header{
     background: var(--main-color-dark);
 }
 .nav-mobile-brand{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* height: 50px; */
     /* width: 200px; */
     font-size: 25px;
