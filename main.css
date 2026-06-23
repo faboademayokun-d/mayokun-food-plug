@@ -88,11 +88,12 @@ header{
     /* sliding from the top logic */
     /* top: -100%; */
     /* sliding from the right logic */
-    top: 71px;
+    top: 65px;
     bottom: 0 ;
     right: 100%;
     width: 50%;
     height: 100vh;
+    position: fixed;
     /* right: -150%; */
 }
 .show-mobile-link-holder{
