@@ -8,7 +8,7 @@
     --light-text-color: rgba(119, 119, 119, 0.1);
     /* --grey-color: rgba(216, 219, 225, 0.4); */
     --grey-gradient-color: linear-gradient(90deg, rgba(216, 219, 225, 0.4), rgba(227, 234, 212, 0.4) );
-    --grey-gradient-color-2:linear-gradient(90deg,rgba(133, 127, 127, 0.5) 0%, rgba(214, 214, 214, 0.5)100%);
+    --grey-gradient-color-2:linear-gradient(90deg,rgba(133, 127, 127, 0.6) 0%, rgba(214, 214, 214, 0.6)100%);
 }
 /* the voice  */
 body{
@@ -44,7 +44,7 @@ html{
    box-sizing: border-box;
 }
 header{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* padding: 0px; */
     position: relative;
     /* overflow: hidden; */
@@ -238,7 +238,7 @@ h2::after{
 }
 .header-banner{
     /* height: 450px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 60px;
     background: url("images/banner.jpg");
     background-position: bottom right;
@@ -249,7 +249,7 @@ h2::after{
 .header-banner-container{
     height: 100%;
     /* border: 2px solid tomato; */
-    width: 50%;
+    width: 90%;
     padding-top: 130px;
     padding-bottom: 30px;
 }
@@ -288,7 +288,7 @@ h2::after{
 
 .about-us{
     display: grid;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     gap: 20px;
     padding: 30px 60px;
 }
@@ -303,15 +303,12 @@ h2::after{
     height: 100%;
 }
 .about-us-image-holder{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     height:320px;
     border-radius: 25px;
     overflow: hidden;
 }
-.about-us-text-holder{
-    border: 2px solid purple;
-    /* height:320px; */
-}
+/*  */
 h2{
     color: var(--main-color);
     text-align: center;
@@ -369,7 +366,7 @@ h2{
 }
 /* explore foods section starts here */
 .explore-food{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* text-align: center; */
     padding: 30px 60px;
     border-bottom: 50px solid var(--main-color);
@@ -480,7 +477,7 @@ h2{
 
 
     .FAQ{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
         padding: 30px 60px;
     }
     .color{
@@ -494,20 +491,20 @@ h2{
         display: inline-block;
     }
     .FAQ-container{
-        border:2px solid black ;
+        /* border:2px solid black ; */
         display: grid;
         grid-template-columns: repeat(2, minmax(300px, 1fr));
         gap: 20px;
     }
-    .faq-item{
+    /* .faq-item{
         border: 2px solid purple;
-        /* height: 200px; */
-    }
+        height: 200px;
+    } */
     .faq-item span i{
         color: var(--main-color);
     }
     .faq-vibes{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
         height: 240px;
         display: flex;
         align-items: center;
